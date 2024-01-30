@@ -36,7 +36,7 @@
     <h3>Education</h3>
     <ul>
       <li>
-        Bachelor of Engineering at Metropolia UOAS, Fall 2022 - Present,
+        Bachelor of Engineering at Metropolia UoAS, Fall 2022 - Present,
         Completed 158 credits with an average of 4.82 / 5
       </li>
       <li>
@@ -161,18 +161,18 @@
       <li>Running</li>
       <li>Chess</li>
     </ul>
-    <script src="index.js">
-        const birthday = new Date("2004-06-15");
-        const today = new Date();
-
-        let age = today.getFullYear() - birthday.getFullYear();
-        const m = today.getMonth() - birthday.getMonth();
-
-        if (m < 0 || (m === 0 && today.getDate() < birthday.getDate())) {
-            age--;
-        }
-
-        document.getElementById("age").textContent = age;
-    </script>
+    <script>
+      const birthday = new Date("2004-06-15");
+      const today = new Date();
+  
+      let age = today.getFullYear() - birthday.getFullYear();
+      const m = today.getMonth() - birthday.getMonth();
+  
+      if (m < 0 || (m === 0 && today.getDate() < birthday.getDate())) {
+          age--;
+      }
+  
+      document.getElementById("age").textContent = age;
+  </script>
   </body>
 </html>
